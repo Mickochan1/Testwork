@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,700&display=swap');
+body {
+  color: white;
+  font-size: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.s3 a,
+.s5 a,
+.s6 a {
+    margin-top: 40px;
+    background: #496bfe;
+    font: 400 16px Aleo;
+    letter-spacing: 0.075em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 225px;
+    text-transform: uppercase;
+    &:hover {
+      background: #5474fd;
+    }
+  }
+.s1 {
+  font-size: 16px;
+  background: url("img/bgs1.png") no-repeat;
+  background-size: cover;
+  height: 45vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  h1 {
+    font: 700 48px "Josefin Sans";
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+    margin-top: 200px;
+  }
+  p {
+    font: 400 22px "Josefin Sans";
+    letter-spacing: 0.31em;
+  }
+ a {
+   font: 400 14px "Josefin Sans";
+   letter-spacing: 0.2em;
+   text-align: center;
+   align-items: center;
+   position: relative;
+   top: 22%;
+}
+  button {
+    color: white;
+    background: #5474fd;
+    border: 1px solid;
+    align-items: center;
+    &:after {
+      content: '🔍';
+      width: 10px;
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  input, button {
+    font: 400 14px "Aleo";
+    border: 1px solid white;
+  }
+  button {
+    height: 64px;
+    border-right: 3px solid white;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    width: 140px;
+  }
+  input {
+    height: 60px;
+    width: 500px;
+    text-align: center;
+  }
+  form > * {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    }
+}
+.s2 {
+  font-size: 16px;
+  background: #5474fd;
+  display: flex;
+  height: 5vw;
+  margin: 0 auto;
+  justify-content: space-around;
+  position: relative;
+  h2 {
+    font: 700 24px "Josefin Sans";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: relative;
+  }
+  nav {
+    height: 20px;
+    position: relative;
+    top: 20px;
+    a{
+      font: 400 14px Aleo;
+      margin: 15px;
+      text-transform: uppercase;
+    }
+  }
+}
+.s3 {
+  height: 685px;
+  background: url("img/bgs3.png") no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  h1 {
+    font: 400 36px Aleo;
+  }
+.dv1 {
+  width: 500px;
+  margin-right: 50px;
+  font: 400 16px "Josefin Sans";
+  a {
+    margin-top: 40px;
+    background: #496bfe;
+    font: 400 16px Aleo;
+    letter-spacing: 0.075em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 225px;
+    text-transform: uppercase;
+    &:hover {
+      background: #5474fd;
+    }
+  }
+}
+.dv2 {
+  position: relative;
+  bottom: 130px;
+  img {
+    height: 220px;
+    &:last-child {
+      position: absolute;
+      top: 39%;
+      left: 35%;
+      margin-top: 140px;
+    }
+  }
+}
+}
+.s4 {
+  display: flex;
+  font-size: 16px;
+  height: 16vw;
+  background: url("img/bgs4-2.png") no-repeat;
+  background-size: cover;
+  div {
+    width: 890px;
+    margin: auto;
+    position: relative;
+    top: 38px;
+    display: flex;
+    justify-content: space-around;
+    font: 24px Aleo;
+  }
+}
+
+
+
+.s5 {
+  font-size: 16px;
+  background: url("img/bgs5.png") no-repeat;
+  background-size: cover;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  div {
+    width: 570px;
+    height: 260px;
+    background: rgba(39,35,35, .8);
+    padding: 20px;
+    position: relative;
+   margin: auto;
+    right: 10%;
+  }
+  h3 {
+    font: 400 20px "Josefin Sans";
+    letter-spacing: 0.075em;
+  }
+  h1 {
+    font: 400 20px "Josefin Sans";
+    text-transform: uppercase;
+  }
+  p {
+    font: 400 16px "Josefin Sans";
+    margin-bottom: 40px;
+  }
+}
+.s6 {
+  font-size: 16px;
+  background: url("img/bgs6.png") no-repeat;
+  background-size: cover;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  div {
+    width: 570px;
+    height: 270px;
+    background: rgba(39,35,35, .8);
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    left: 20%;
+    h3 {
+      font: 400 20px "Josefin Sans";
+      letter-spacing: 0.075em;
+    }
+    h1 {
+      font: 400 20px "Josefin Sans";
+      text-transform: uppercase;
+    }
+    p {
+      font: 400 16px "Josefin Sans";
+      margin-bottom: 40px;
+    }
+  }
+}
+.s7 {
+  font-size: 16px;
+  background: url("img/bgs7.png") no-repeat;
+  background-size: cover;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  svg {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    color: #5474fd;
+  }
+  h1 {
+    font: 400 36px Aleo;
+    margin-top: 80px;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+  }
+  div {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    background: #333333;
+    h2 {
+      font: 400 20px "Josefin Sans";
+      text-transform: uppercase;
+      margin-top: 40px;
+    }
+    img {
+      float: left;
+      margin-right: 20px;
+    }
+    p {
+      font: 400 16px "Josefin Sans";
+      color: #b8b8b8;
+      width: 890px;
+    }
+  }
+}
+footer {
+  background: #232323;
+  display: flex;
+  font-size: 16px;
+  height: 15vw;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: 160px;
+    height: 150px;
+    h1 {
+      font: 400 24px "Josefin Sans";
+      text-transform: uppercase;
+      margin: 10px 0 0 0;
+    }
+    h3 {
+      font: 400 16px "Josefin Sans";
+      margin-top: 5px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    svg{
+      height: 15px;
+      width: 15px;
+    }
+    a {
+      &:hover {
+        color: #5474fd;
+      }
+    }
+  }
+}
